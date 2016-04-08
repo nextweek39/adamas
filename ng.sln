@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6E1F624-6527-4514-9754-ED74EE91A294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51493428-D35A-4C8F-B3EB-7BD9F7ADA8E3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ng", "src\ng\ng.xproj", "{AD2B0600-0755-48AD-9C6C-8347034CF210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD2B0600-0755-48AD-9C6C-8347034CF210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2B0600-0755-48AD-9C6C-8347034CF210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2B0600-0755-48AD-9C6C-8347034CF210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2B0600-0755-48AD-9C6C-8347034CF210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD2B0600-0755-48AD-9C6C-8347034CF210} = {F6E1F624-6527-4514-9754-ED74EE91A294}
+	EndGlobalSection
+EndGlobal
